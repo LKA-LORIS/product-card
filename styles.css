@@ -57,6 +57,10 @@ img {
     max-width: 100%;
 }
 
+main {
+    padding:0 1.6rem;
+}
+
 
 .card {
     position: relative;
@@ -147,6 +151,12 @@ img {
 }
 
 @media screen and (min-width: 599px) {
+
+    main {
+        padding:0;
+    }
+
+
     .card {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
